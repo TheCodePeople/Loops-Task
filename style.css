@@ -1,0 +1,47 @@
+body {
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #faca0c;
+}
+
+
+#pokemon-list{
+    border: 4px solid white;
+    border-radius: 1rem;
+    width: 250px;
+   
+    box-sizing: border-box;
+    text-align: center;
+    margin: 0.5rem;
+    background-color: #e0d494;
+    font-weight: 800;
+    color: #4f2424;
+}
+
+ .abilities, .types{
+    border: 2px solid white;
+    display: flex;
+    background-color: #f0eee6;
+    justify-content: center;
+    text-transform: capitalize;
+}
+.types{
+    border-bottom-right-radius: 10%;
+    border-bottom-left-radius: 10%;
+}
+
+.abilities-names, .types-names{
+    color: black;
+    font-display: block;
+    font-weight: 900;
+    font-size: 20px;
+    text-transform: uppercase;
+    justify-content: flex-start;
+} 
+
+#pokemon-conatiner {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 1rem;
+  } 
